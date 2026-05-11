@@ -24,3 +24,8 @@ dist-ssr
 *.sw?
 
 .vercel
+
+# PDFs and extracted text (not committed)
+*.pdf
+*-vocab.txt
+*-phrases.txt
