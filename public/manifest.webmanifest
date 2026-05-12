@@ -1,0 +1,17 @@
+{
+  "name": "Kaley Revision",
+  "short_name": "Kaley Rev",
+  "description": "Math vocabulary and English essay phrases for revision",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f5f5",
+  "theme_color": "#7c3aed",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
