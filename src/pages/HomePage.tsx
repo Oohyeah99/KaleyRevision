@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import { Card } from '../components/ui/Card'
-import { Calculator, FileText, ArrowRight } from 'lucide-react'
+import { Calculator, FileText, MessageSquare, ArrowRight } from 'lucide-react'
 
 export function HomePage() {
   const navigate = useNavigate()
@@ -25,6 +25,16 @@ export function HomePage() {
       iconBg: 'bg-green-50',
       iconColor: 'text-green-600',
       path: '/essays',
+    },
+    {
+      id: 'interview',
+      title: 'Interview Questions',
+      subtitle: '面试问题',
+      description: 'Practice questions for speaking exams and interviews',
+      icon: MessageSquare,
+      iconBg: 'bg-purple-50',
+      iconColor: 'text-purple-600',
+      path: '/interview',
     },
   ]
 
